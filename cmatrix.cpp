@@ -1,7 +1,7 @@
 #include "cmatrix.h"
 
 /*
- version 0.9.9-- Date=04 Apr 2015
+ version 0.9.0-- Date=04 Apr 2015
  Written by Ehsan Zahedinejad. PhD at U of Calgary. Department of Physics...
  This is the std::complex<double> matrix class implementation. A short explanation is given for each function
  in the matrix.h file. Note that I am treating 1d aray as 2d array in my program.
