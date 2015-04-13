@@ -48,7 +48,7 @@ double DE(problem& Problem,matrix& _pop,matrix& single_pop,int mynode,int* seed,
         constrain(_mpop,-2.5,2.5);
     //=============================================Crossover part of the DE using Cross over rate, G ===============================================
     _cpop=_mpop;
-    /*
+    
             rand_matrix(dist1,seed,index);
             for (int j=0; j<S; ++j) {
                 if (index.array1d[j]<rates.array1d[1]) {
@@ -56,7 +56,7 @@ double DE(problem& Problem,matrix& _pop,matrix& single_pop,int mynode,int* seed,
                 }
 
             }
-     */
+     
     //============================================================Selection part of the DE============================================================
     double err=Fidelity.array1d[mynode];
     double tmp=EvalUT(_cpop,Problem);
