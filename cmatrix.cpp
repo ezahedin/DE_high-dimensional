@@ -1,12 +1,12 @@
 #include "cmatrix.h"
 
 /*
- version 0.00-- Date=Sep 25 2014
+ version 0.9.9-- Date=04 Apr 2015
  Written by Ehsan Zahedinejad. PhD at U of Calgary. Department of Physics...
  This is the std::complex<double> matrix class implementation. A short explanation is given for each function
  in the matrix.h file. Note that I am treating 1d aray as 2d array in my program.
- This is just to increase the cashe waste and memory miss and to spped up the algorithms
- performance. The other reason is that you can not pass 2d array in MPI library between nodes se this could be a good reason to have 1d and deal as 2d arrays.
+ This is just to reduce the cashe waste and memory miss and to speed up the program
+ performance. The other reason is that you can not pass 2d array in MPI library between nodes. So this could be a good reason to have 1d array act like 2d array.
  */
 //=============================================================================//
 cmatrix::cmatrix(unsigned int t1,unsigned int t2) {
