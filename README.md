@@ -1,11 +1,11 @@
-# DE_high-dimensional
+# DE_high-dimensional (Version 0.9.0)
 =========================
 Author: Ehsan Zahedinejad ezahedin@ucalgary.ca
 =========================
 
 Title:
 =========================
-Differential Evolution for high dimensional optimization problem (Version 0.9.0) Data: 13-Apr-2015
+Differential Evolution for high dimensional optimization problem.
 See Publication here http://arxiv.org/abs/1501.04676
 Program can be ran on single and mutiple processors.
 
@@ -16,6 +16,7 @@ A single thread compilation of mkl leads to better efficiency. This is why I com
 
 Compilation
 ======================
-Compilation command: one should issue ./make command on linux to compile the code. However you should
-alway make sure that the program refers to the right location of libraries.
+Compilation command: ./make
+However you should alway make sure that the program refers to the right location of libraries.
+Edit makefile according to the location of you libraries.
 
