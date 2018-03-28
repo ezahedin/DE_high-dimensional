@@ -11,12 +11,12 @@
 #include <mpi.h>
 
 
-int main()
+int main(int argc, char* argv[])
 {
     //==============================================================Initializing MPI Gloabl Variable=================================================================
 
     int totalnode,mynode;
-    MPI::Init();
+    MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD,&totalnode);
     MPI_Comm_rank(MPI_COMM_WORLD,&mynode);
     MPI_Status status;
@@ -217,7 +217,7 @@ if (fmod((double)mynode,2)==0) {
 
 
        */
-    MPI::Finalize();
+    MPI_Finalize();
 
 
     
